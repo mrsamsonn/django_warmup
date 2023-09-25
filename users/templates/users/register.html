@@ -8,17 +8,10 @@
     <div>
         <form method="POST">
             {% csrf_token %}
-            <fieldset>
-                <legend>
-                    Join
-                </legend>
-                {{ form }}
-            </fieldset>
-            <div>
-                <button type="submit">
-                    Sign Up
-                </button>
-            </div>
+            {{ form }}
+            <button type="submit">
+                Sign Up
+            </button>
         </form>
     </div>
 {% endblock content %}
