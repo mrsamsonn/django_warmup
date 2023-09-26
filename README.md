@@ -1,4 +1,4 @@
 # django_warmup
 
 Current Structure:
-![Current Structure](Structure.png?raw=true)
+![Current Structure](structure.png?raw=true)
